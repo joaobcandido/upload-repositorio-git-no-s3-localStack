@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  localstack:
+    image: localstack/localstack:latest
+    ports:
+      - "4566:4566"
+    environment:
+      - DATA_DIR=/data
+    volumes:
+      - ./localstack-data:/data
