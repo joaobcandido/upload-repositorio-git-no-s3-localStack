@@ -1,0 +1,1 @@
+# upload-repositorio-git-no-s3-localStack
